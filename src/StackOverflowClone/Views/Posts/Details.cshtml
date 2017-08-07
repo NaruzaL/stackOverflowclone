@@ -11,6 +11,7 @@
 <p>@Html.DisplayNameFor(model => model.Title): @Html.DisplayFor(model => model.Title)</p>
 <p>@Html.DisplayNameFor(model => model.Question) : @Html.DisplayFor(model => model.Question)</p>
 <p>@Html.DisplayNameFor(model => model.Date) : @Html.DisplayFor(model => model.Date)</p>
+<p>@Html.DisplayFor(model => model.PostVote)</p>
 <p>@Html.ActionLink("Submit an Answer", "Create", "Responses", new { id = Model.PostId })</p>
 
  @Html.ActionLink("Back to List", "Index")</p>
@@ -19,4 +20,9 @@
 {
     <p>@answer.Answer</p>
 
+}
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.PostId)
+<input type="submit" value="Upvote" />
 }

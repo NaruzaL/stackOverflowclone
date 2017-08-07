@@ -34,6 +34,14 @@ namespace StackOverflowClone.Controllers
             var thisPost = _db.Posts.Include(post => post.Answers).FirstOrDefault(Posts => Posts.PostId == id);
             return View(thisPost);
         }
+        [HttpPost, ActionName("Details")]
+        public IActionResult Upvote(int id)
+        {
+            var thisPost = _db.Posts.Include(post => post.Answers).FirstOrDefault(Posts => Posts.PostId == id);
+            thisPost.PostVote += 1;
+            _db.SaveChanges();
+            return RedirectToAction("Details");
+        }
         public IActionResult Create()
         {
             return View();

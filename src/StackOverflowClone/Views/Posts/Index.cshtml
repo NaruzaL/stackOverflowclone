@@ -15,7 +15,7 @@
     <ul>
         @foreach (var listPost in Model)
         {
-            <li>@Html.ActionLink(listPost.Title, "Details", new { id = listPost.PostId })</li>
+            <li>@listPost.PostVote | @Html.ActionLink(listPost.Title, "Details", new { id = listPost.PostId })</li>
         }
     </ul>
 }
