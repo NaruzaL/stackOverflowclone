@@ -8,5 +8,6 @@ namespace StackOverflowClone.Models
 {
     public class ApplicationUser : IdentityUser
     {
+
     }
 }

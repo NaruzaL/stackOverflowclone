@@ -12,6 +12,7 @@ namespace StackOverflowClone.Models
     {
         [Key]
         public int ResponseId { get; set; }
+        [DataType(DataType.MultilineText)]
         public string Answer { get; set; }
         public int Vote { get; set; }
         public bool BestAnswer { get; set; }

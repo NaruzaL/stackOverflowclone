@@ -1,5 +1,5 @@
---temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\obj\Debug\netcoreapp1.0\
---out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\bin\Debug\netcoreapp1.0\StackOverflowClone.dll
+--temp-output:c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\obj\Debug\netcoreapp1.0\
+--out:c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\bin\Debug\netcoreapp1.0\StackOverflowClone.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -199,18 +199,21 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\obj\Debug\netcoreapp1.0\StackOverflowClonedotnet-compile.deps.json",StackOverflowClone.deps.json
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Program.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Startup.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Controllers\AccountController.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807144629_Initial.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807144629_Initial.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807154519_OtherClasses.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807154519_OtherClasses.Designer.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\ApplicationDbContextModelSnapshot.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\ApplicationDbContext.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\ApplicationUser.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\Post.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\Response.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\ViewModels\LoginViewModel.cs
-C:\Users\epicodus\Documents\Visual Studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\ViewModels\RegisterViewModel.cs
+--resource:"c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\obj\Debug\netcoreapp1.0\StackOverflowClonedotnet-compile.deps.json",StackOverflowClone.deps.json
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Program.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Startup.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Controllers\AccountController.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Controllers\PostsController.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Controllers\ResponsesController.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807144629_Initial.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807144629_Initial.Designer.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807154519_OtherClasses.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\20170807154519_OtherClasses.Designer.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Migrations\ApplicationDbContextModelSnapshot.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\ApplicationDbContext.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\ApplicationUser.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\Post.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\Models\Response.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\ViewModels\LoginViewModel.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\ViewModels\PostResponses.cs
+c:\users\epicodus\documents\visual studio 2015\Projects\StackOverflowClone\src\StackOverflowClone\ViewModels\RegisterViewModel.cs

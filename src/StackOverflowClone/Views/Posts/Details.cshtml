@@ -1,0 +1,22 @@
+﻿@model StackOverflowClone.Models.Post
+ 
+
+@{
+    ViewData["Title"] = "Post - Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Post Details</h2>
+<hr />
+
+<p>@Html.DisplayNameFor(model => model.Title): @Html.DisplayFor(model => model.Title)</p>
+<p>@Html.DisplayNameFor(model => model.Question) : @Html.DisplayFor(model => model.Question)</p>
+<p>@Html.DisplayNameFor(model => model.Date) : @Html.DisplayFor(model => model.Date)</p>
+<p>@Html.ActionLink("Submit an Answer", "Create", "Responses", new { id = Model.PostId })</p>
+
+ @Html.ActionLink("Back to List", "Index")</p>
+
+@foreach(var answer in Model.Answers)
+{
+    <p>@answer.Answer</p>
+
+}

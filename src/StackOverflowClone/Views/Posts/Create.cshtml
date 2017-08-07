@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model StackOverflowClone.Models.Post
+
+<h2>Add a new task</h2>
+<hr />
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Title)
+    @Html.EditorFor(model => model.Title)
+
+    @Html.LabelFor(model => model.Question)
+    @Html.EditorFor(model => model.Question)
+
+    <input type="submit" value="Create" />
+}
+@Html.ActionLink("Back to List", "Index")

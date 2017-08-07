@@ -1,0 +1,14 @@
+﻿@model StackOverflowClone.Models.Response
+
+@{
+    ViewData["Title"] = "Response - Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.Answer)
+    @Html.EditorFor(model => model.Answer)
+
+    <input type="submit" value="Add Answer" />
+}
